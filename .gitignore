@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local project data generated during execution
+data/*.json
+data/*.log
+data/memory/
+data/.memory-test/
+
+# Container and local temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Credential files
+*.pem
+*.key
+*.crt
+*credentials*
+*secret*
